@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>2.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,19 +21,13 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.118.89:9000/</sonar.host.url>
-         <sonar.login>42ac7c00d382e9bb61fc000c49adfd69ceda1a13</sonar.login>	
+		<sonar.host.url>http://13.232.5.182:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-
-	<repositories>
-		<repository>
-			<id>nexus</id>
-			<url>http://13.126.162.61:9001/repository/vamsi-grouprepo/</url>	
-              </repository>
-</repositories>	
 
 	<dependencies>
 		
@@ -64,11 +58,6 @@
 			<version>1.9.5</version>
 			<scope>test</scope>
 		</dependency>
-			<dependency>
-  <groupId>com.mt</groupId>
-  <artifactId>mail</artifactId>
-  <version>0.1</version>
-</dependency>
 
 		<!-- compile dependencies -->
 
@@ -108,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Maven release repo</name>
-              <url>http://13.126.162.61:9001/repository/maven-release/</url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.127.243.101:9001/repository/maven-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Maven snapshot repo</name>
-	      <url>http://13.126.162.61:9001/repository/maven-snapshots/</url>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.127.243.101:9001/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
