@@ -65,10 +65,7 @@
 			<scope>test</scope>
 		</dependency>
 			<dependency>
-  <groupId>com.mt</groupId>
-  <artifactId>mail</artifactId>
-  <version>0.1</version>
-</dependency>
+ 
 
 		<!-- compile dependencies -->
 
