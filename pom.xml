@@ -31,7 +31,7 @@
 	<repositories>
 		<repository>
 			<id>nexus</id>
-			<url>http://13.126.162.61:9001/repository/vamsi-grouprepo/</url>	
+			<url>http://13.127.243.101:9001/repository/vamsi-grouprepo/</url>	
               </repository>
 </repositories>	
 
@@ -103,13 +103,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Maven release repo</name>
-              <url>http://13.126.162.61:9001/repository/maven-release/</url>
+              <url>http://13.127.243.101:9001/repository/maven-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Maven snapshot repo</name>
-	      <url>http://13.126.162.61:9001/repository/maven-snapshots/</url>
+	      <url>http://13.127.243.101:9001/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
